@@ -313,7 +313,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Islam]
-  first_name: [Mohammad]
+  first_name: [Mohammad, A]
 
   style: apa
   locale: en
@@ -333,7 +333,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by:
   group_order: descending
 
 # Display different badges withs stats for your publications
