@@ -6,7 +6,7 @@ permalink: /
 
 profile:
   align: right
-  image: profile_pic_2023.jpg
+  image: fps2019-photowall-15 copy 2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Engineering Research Building (ERB) Room 540</p>
