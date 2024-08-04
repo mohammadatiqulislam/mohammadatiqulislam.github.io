@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\_bibliography",
-    "\\_layouts",
-    "\\_pages"
+    "\\_layouts"
   ],
-  "SelectedNode": "\\_pages",
+  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }
