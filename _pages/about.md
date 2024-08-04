@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor at the [Department of Computer Science and Engineering](https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse) at the University of Texas at Arlington. I recieved my PhD from University of California, Riverside and Bachelors from Bangladesh University of Engineering and Technology.
+I am an Assistant Professor at the [Department of Computer Science and Engineering](https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse) at the University of Texas at Arlington. I received my PhD from the University of California, Riverside, and my Bachelor's from the Bangladesh University of Engineering and Technology.
 
 My work can be broadly classified as computer systems research with ongoing projects at UTA spanning several research areas such as Cloud, Economics of Computing, Distributed Systems, High-Performance Computing, Security and Privacy, Edge Computing, Cyber-Physical Systems, IoT, and Sensors.
 
