@@ -5,7 +5,7 @@ permalink: /
 # subtitle: <a href='#'>Conp</a>. University of Texas at Arlington.
 
 profile:
-  align: right
+  align: left
   image: fps2019-photowall-15.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
