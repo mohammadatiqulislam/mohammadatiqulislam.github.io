@@ -23,13 +23,13 @@ layout: default
     <h1 class="post-title">
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
     </h1>
-<p>Assistant Professor <br>
-<a href="https://cse.uta.edu/">Computer Science and Engineering</a><br>
-University of Texas at Arlington<br>
-500 UTA Blvd., Arlington, TX 76019<br>
+<p> <span class="font-weight-bold">{{site.designation}}</span><br>
+<a href="https://cse.uta.edu/">{{site.department}}</a><br>
+{{site.affiliation}}<br>
+{{site.address}}<br>
 
 Email: mislam[AT]uta[dot]edu<br>
-Office: Room 540, Engineering Research Building (ERB)</p>
+Office: {{site.office}}</p>
 <div class="contact-icons">{% include social.liquid %}</div>
 </tr>
 </tbody></table><p></p>
