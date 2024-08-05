@@ -102,7 +102,7 @@ Office: {{site.office}}</p>
     {% endif %}
 
     <!-- Social -->
-
+{% comment %}
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
@@ -110,6 +110,7 @@ Office: {{site.office}}</p>
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
+{% endcomment %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
