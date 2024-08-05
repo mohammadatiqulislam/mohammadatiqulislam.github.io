@@ -10,6 +10,8 @@ email: mislam@uta.edu
 designation: Assistant Professor
 affiliation: University of Texas at Arlington
 department: Computer Science and Engineering
+address: 500 UTA Blvd., Arlington, TX 76019
+office: Room 540, Engineering Research Building (ERB)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
