@@ -56,7 +56,7 @@ Office: {{site.office}}</p>
       rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.15}}px, (min-width: 133px)
-      30vw, 95vw"{% endcapture %}
+      15vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
