@@ -21,7 +21,7 @@ layout: default
 <img src="assets/img/fps2019-photowall-15.jpg" alt="alt text" width="133px" height="200px">&nbsp;</td>
 <td align="left">
     <h1 class="post-title">
-        <span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} </span>
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
     </h1>
 <p>Assistant Professor <br>
 <a href="https://cse.uta.edu/">Computer Science and Engineering</a><br>
@@ -30,13 +30,15 @@ University of Texas at Arlington<br>
 
 Email: mislam[AT]uta[dot]edu<br>
 Office: Room 540, Engineering Research Building (ERB)</p>
-class="contact-icons">{% include social.liquid %}
+{% include social.liquid %}<br>
+{{ site.contact_note }}
 </tr>
 </tbody></table><p></p>
 </td></tr></tbody></table>
 
 
   <article>
+{% comment %}
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
         {% if page.profile.image %}
@@ -68,6 +70,7 @@ class="contact-icons">{% include social.liquid %}
         {% endif %}
       </div>
     {% endif %}
+{% endcomment %}
 
     <div class="clearfix">{{ content }}</div>
 
