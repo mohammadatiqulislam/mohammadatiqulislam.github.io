@@ -31,7 +31,7 @@ layout: default
 Email: mislam[AT]uta[dot]edu<br>
 Office: {{site.office}}</p>
 <div class="social">
-  <div class="contact-icons">{% include social.liquid %}</div>
+  {% include social.liquid %}
 </div>
 </tr>
 </tbody></table><p></p>
@@ -108,6 +108,7 @@ Office: {{site.office}}</p>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
+    {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
