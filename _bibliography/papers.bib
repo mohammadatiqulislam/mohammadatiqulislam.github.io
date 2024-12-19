@@ -1,536 +1,35 @@
 ---
 ---
 
-@article{ren2014colocation,
-  abbr={ICAC},
-  title={Colocation demand response: Why do I turn off my servers?},
-  author={Ren, Shaolei and Islam, Mohammad A},
-  abstract={Data centers are promising participants in demand response programs (i.e., reducing a large electricity demand upon utility’s request), making power grid more stable and sustainable. In this paper, we focus on enabling colocation data center demand response. Colocation is an integral yet unique segment of data center industry, where multiple tenants house their servers in one shared facility. Nonetheless, differing from owner-operated data centers (e.g., Google), colocation data center suffers from “split incentive”: colocation operator desires demand response for financial incentives but has no control over tenants’ servers, while tenants who own the servers may not desire demand response due to lack of incentives. To break “split incentive”, we propose a first-of-its-kind incentive mechanism, called iCODE (incentivizing COlocation tenants for DEmand response), based on reverse auction: tenants, who voluntarily submit energy reduction bids to colocation operator, will be financially rewarded if their bids are accepted. We formally model how each tenant decides its bids and how colocation operator decides winning bids. We perform a trace-based simulation to evaluate iCODE. We show that iCODE can reduce colocation energy consumption by over 50% during demand response periods, unleashing the potential of colocation demand response.},
-  journal={11th International Conference on Autonomic Computing (ICAC 14)},
-  year={2014},
-  month={June},
-  html={https://www.usenix.org/conference/icac14/technical-sessions/presentation/ren},
-  pdf={2014_icac14-paper-ren.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@article{6604466,
-  abbr={IGCC},
-  author={Islam, Mohammad A. and Ren, Shaolei and Pissinou, Niki and Mahmud, Hasan and Vasilakos, Athanasios V.},
-  journal={2013 International Green Computing Conference Proceedings}, 
-  title={Distributed resource management in data center with temperature constraint},
-  abstract= {With the ever-increasing power density generating an excessive amount of heat that potentially induces server damage and outages, data center operation must be judiciously optimized to prevent server overheating. Moreover, data center is subject to various peak power constraints (such as peak server power) that have to be satisfied at all times for reliability concerns. In this paper, we propose a novel resource management algorithm, called DREAM (Distributed REsource mAnagement with teMperature constraint), to optimally control the server capacity provisioning (via power adjustment) and load distribution for minimizing the data center operational cost while satisfying the IT peak power and maximum server inlet temperature constraints. By using DREAM, each server can autonomously adjust its discrete processing speed (and hence, power consumption, too) and optimally decide the amount of workloads to process, in order to minimize the total cost that incorporates both power consumption and service delay. We rigorously prove that DREAM can yield the minimum cost with an arbitrarily high probability while satisfying the peak power and inlet temperature constraints. To complement the analysis, we perform a simulation study and show that DREAM can significantly reduce the cost compared to the optimal temperature-unaware algorithm (by up to 23%) and equal load distribution (by up to 69%).},
-  year={2013},
-  month={June},
-  doi={10.1109/IGCC.2013.6604466},
+@inproceedings{gupta2024dataset,
+  abbr={E-Energy},
+  title={A dataset for research on water sustainability},
+  author={Gupta, Pranjol Sen and Hossen, Md Rajib and Li, Pengfei and Ren, Shaolei and Islam, Mohammad A},
+  booktitle={Proceedings Of The 15th Acm International Conference On Future And Sustainable Energy Systems},
+  pages={442--446},
+  year={2024},
   html={https://ieeexplore.ieee.org/document/6604466},
   pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-  }
-
-  @article{ren2014first,
-  abbr={GreenMetrics},
-  title={A first look at colocation demand response},
-  author={Ren, Shaolei and Islam, Mohammad A},
-  journal={ACM SIGMETRICS Performance Evaluation Review},
-  volume={42},
-  number={3},
-  pages={73--75},
-  year={2014},
-  publisher={ACM},
-  html={https://dl.acm.org/citation.cfm?id=2695559},
-  pdf={2014_greenmetrics_2014.pdf},
-  dimensions={true},
+  dimensions={false},
   selected={false}
 }
 
-@inproceedings{islam2014greencolo,
-  abbr={IGCC},
-  title={GreenColo: A novel incentive mechanism for minimizing carbon footprint in colocation data center},
-  author={Islam, Mohammad A and Ren, Shaolei and Wang, Xiaorui},
-  booktitle={International green computing conference},
-  pages={1--8},
-  year={2014},
-  organization={IEEE},
-  html={http://ieeexplore.ieee.org/document/7039140},
-  pdf={2014_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{islam2013online,
-  abbr={MASCOTS},
-  title={Online energy budgeting for virtualized data centers},
-  author={Islam, Mohammad A and Ren, Shaolei and Quan, Gang},
-  booktitle={2013 IEEE 21st International Symposium on Modelling, Analysis and Simulation of Computer and Telecommunication Systems},
-  pages={424--433},
-  year={2013},
-  organization={IEEE},
-  html={http://ieeexplore.ieee.org/document/6730799/},
-  pdf={2013_islam2013moscots.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{islam2015paying,
-  abbr={HPCA},
-  title={Paying to save: Reducing cost of colocation data center via rewards},
-  author={Islam, Mohammad A and Mahmud, Hasan and Ren, Shaolei and Wang, Xiaorui},
-  booktitle={2015 IEEE 21st International Symposium on High Performance Computer Architecture (HPCA)},
-  pages={235--245},
-  year={2015},
-  organization={IEEE},
-  html={http://ieeexplore.ieee.org/document/7056036},
-  pdf={2015_hpca_2015.pdf},
-  dimensions={true},
-  selected={true}
-}
-
-
-@article{islam2015water,
-  abbr={TCC},
-  title={Water-constrained geographic load balancing in data centers},
-  author={Islam, Mohammad A and Ren, Shaolei and Quan, Gang and Shakir, Muhammad Z and Vasilakos, Athanasios V},
-  journal={IEEE Transactions on Cloud Computing},
-  volume={5},
-  number={2},
-  pages={208--220},
-  year={2015},
-  publisher={IEEE},
-  html={http://ieeexplore.ieee.org/document/7152842},
-  pdf={2015_TCC_01.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-
-@article{islam2015distributed,
-  abbr={SUSCOM},
-  title={Distributed temperature-aware resource management in virtualized data center},
-  author={Islam, Mohammad A and Ren, Shaolei and Pissinou, Niki and Mahmud, A Hasan and Vasilakos, Athanasios V},
-  journal={Sustainable Computing: Informatics and Systems},
-  volume={6},
-  pages={3--16},
-  year={2015},
-  publisher={Elsevier},
-  html={http://www.sciencedirect.com/science/article/pii/S2210537914000055},
-  pdf={2014_suscom.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{islam2014exploiting,
-  abbr={ICAC},
-  title={Exploiting Temporal Diversity of Water Efficiency to Make Data Center Less" Thirsty"},
-  author={Islam, Mohammad A and Ahmed, Kishwar and Ren, Shaolei and Quan, Gang},
-  booktitle={11th International Conference on Autonomic Computing (ICAC 14)},
-  pages={145--152},
-  year={2014},
-  html={https://www.usenix.org/conference/icac14/technical-sessions/presentation/islam},
-  pdf={2014_icac14-paper-islam.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-
-@article{islam2015online,
-  abbr={TSC},
-  title={Online energy budgeting for cost minimization in virtualized data center},
-  author={Islam, Mohammad A and Ren, Shaolei and Mahmud, A Hasan and Quan, Gang},
-  journal={IEEE Transactions on Services Computing},
-  volume={9},
-  number={3},
-  pages={421--432},
-  year={2015},
-  publisher={IEEE},
-  html={http://ieeexplore.ieee.org/document/6730799},
-  pdf={2016_TSC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@article{ren2014dynamic,
-  abbr={TSP},
-  title={Dynamic scheduling for energy minimization in delay-sensitive stream mining},
-  author={Ren, Shaolei and Deligiannis, Nikos and Andreopoulos, Yiannis and Islam, Mohammad A and Van Der Schaar, Mihaela},
-  journal={IEEE Transactions on Signal Processing},
-  volume={62},
-  number={20},
-  pages={5439--5448},
-  year={2014},
-  publisher={IEEE},
-  html={http://ieeexplore.ieee.org/document/6877705},
-  pdf={2014_TSP_10.1.1.700.2258.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{islam2016new,
-  abbr={CoolDC},
-  title={A New Perspective on Energy Accounting in Multi-Tenant Data Centers},
-  author={Islam, Mohammad A and Ren, Shaolei},
-  booktitle={USENIX Workshop on Cool Topics on Sustainable Data Centers (CoolDC 16)},
-  year={2016},
-  html={https://www.usenix.org/conference/cooldc16/workshop-program/presentation/islam},
-  pdf={2016_cooldc16-paper-islam.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{islam2016market,
-  abbr={HPCA},
-  title={A market approach for handling power emergencies in multi-tenant data center},
-  author={Islam, Mohammad A and Ren, Xiaoqi and Ren, Shaolei and Wierman, Adam and Wang, Xiaorui},
-  booktitle={2016 IEEE International Symposium on High Performance Computer Architecture (HPCA)},
-  pages={432--443},
-  year={2016},
-  organization={IEEE},
-  html={http://ieeexplore.ieee.org/abstract/document/7446084},
-  pdf={2016_hpca_2016.pdf},
-  dimensions={true},
-  selected={teue}
-}
-
-@article{islam2016exploiting,
-  abbr={TCC},
-  title={Exploiting spatio-temporal diversity for water saving in geo-distributed data centers},
-  author={Islam, Mohammad A and Ahmed, Kishwar and Xu, Hong and Tran, Nguyen H and Quan, Gang and Ren, Shaolei},
-  journal={IEEE Transactions on Cloud Computing},
-  volume={6},
-  number={3},
-  pages={734--746},
-  year={2016},
-  publisher={IEEE},
-  html={https://ieeexplore.ieee.org/document/7420641},
-  pdf={2014_TCC_02.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{ahmed2015contract,
-  abbr={ICCAD},
-  title={A contract design approach for colocation data center demand response},
-  author={Ahmed, Kishwar and Islam, Mohammad A and Ren, Shaolei},
-  booktitle={2015 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},
-  pages={635--640},
-  year={2015},
-  organization={IEEE},
-  html={http://ieeexplore.ieee.org/document/7372629},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={true}
-}
-
-@inproceedings{wei2016co,
-  abbr={IGSC},
-  title={Co-scheduling of datacenter and HVAC loads in mixed-use buildings},
-  author={Wei, Tianshu and Islam, Mohammad Atiqul and Ren, Shaolei and Zhu, Qi and others},
-  booktitle={2016 Seventh International Green and Sustainable Computing Conference (IGSC)},
-  pages={1--8},
-  year={2016},
-  organization={IEEE},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2015_ICCAD.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{islam2017spot,
-  abbr={SIGMETRICS},
-  title={A spot capacity market to increase power infrastructure utilization in multi-tenant data centers},
-  author={Islam, Mohammad A and Ren, Xiaoqi and Ren, Shaolei and Wierman, Adam},
-  booktitle={Proceedings of the 2017 ACM SIGMETRICS/International Conference on Measurement and Modeling of Computer Systems},
-  pages={19--20},
-  year={2017},
+@inproceedings{gupta2024towards,
+  abbr={E-Energy},
+  title={Towards Non-Intrusive Real-Time Monitoring of Behind the Meter Residential Distributed Energy Resources},
+  author={Gupta, Pranjol Sen and Alam, SM Shafiul and Zhang, Yichen and Islam, Mohammad A},
+  booktitle={Proceedings Of The 15th Acm International Conference On Future And Sustainable Energy Systems},
+  pages={428--433},
+  year={2024},
   html={https://ieeexplore.ieee.org/document/6604466},
   pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@article{islam2017first,
-  abbr={SIGMETRICS},
-  title={A first look at power attacks in multi-tenant data centers},
-  author={Islam, Mohammad A and Ren, Shaolei and Wierman, Adam},
-  journal={ACM SIGMETRICS Performance Evaluation Review},
-  volume={45},
-  number={2},
-  pages={91--93},
-  year={2017},
-  publisher={ACM},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-
-@article{nguyen2018fair,
-  abbr={TWC},
-  title={Fair sharing of backup power supply in multi-operator wireless cellular towers},
-  author={Nguyen, Minh NH and Tran, Nguyen H and Islam, Mohammad A and Pham, Chuan and Ren, Shaolei and Hong, Choong Seon},
-  journal={IEEE Transactions on Wireless Communications},
-  volume={17},
-  number={3},
-  pages={2080--2093},
-  year={2018},
-  publisher={IEEE},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{islam2017exploiting,
-  abbr={CCS},
-  title={Exploiting a thermal side channel for power attacks in multi-tenant data centers},
-  author={Islam, Mohammad A and Ren, Shaolei and Wierman, Adam},
-  booktitle={Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security},
-  pages={1079--1094},
-  year={2017},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={true}
-}
-
-@article{islam2017carbon,
-  abbr={TCC},
-  title={A carbon-aware incentive mechanism for greening colocation data centers},
-  author={Islam, Mohammad A and Mahmud, Hasan and Ren, Shaolei and Wang, Xiaorui},
-  journal={IEEE Transactions on Cloud Computing},
-  volume={8},
-  number={1},
-  pages={4--16},
-  year={2017},
-  publisher={IEEE},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@article{islam2018some,
-  abbr={POMACS},
-  title={Why some like it loud: Timing power attacks in multi-tenant data centers using an acoustic side channel},
-  author={Islam, Mohammad A and Yang, Luting and Ranganath, Kiran and Ren, Shaolei},
-  journal={Proceedings of the ACM on Measurement and Analysis of Computing Systems},
-  volume={2},
-  number={1},
-  pages={1--33},
-  year={2018},
-  publisher={ACM New York, NY, USA},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{nguyen2018multi,
-  abbr={NOMS},
-  title={Multi-operator backup power sharing in wireless base stations},
-  author={Nguyen, Minh NH and Tran, Nguyen H and Islam, Mohammad A and Pham, Chuan and Ren, Shaolei and Hong, Choong Seon},
-  booktitle={NOMS 2018-2018 IEEE/IFIP Network Operations and Management Symposium},
-  pages={1--9},
-  year={2018},
-  organization={IEEE},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{islam2018ohm,
-  abbr={CCS},
-  title={Ohm's law in data centers: A voltage side channel for timing power attacks},
-  author={Islam, Mohammad A and Ren, Shaolei},
-  booktitle={Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security},
-  pages={146--162},
-  year={2018},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@article{shao2019first,
-  abbr={SIGMETRICS},
-  title={A first look at thermal attacks in multi-tenant data centers},
-  author={Shao, Zhihui and Islam, Mohammad A and Ren, Shaolei},
-  journal={ACM SIGMETRICS Performance Evaluation Review},
-  volume={46},
-  number={2},
-  pages={93--94},
-  year={2019},
-  publisher={ACM New York, NY, USA},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-
-@inproceedings{ahmed2014can,
-  abbr={HotPower},
-  title={Can Data Center Become Water Self-Sufficient?},
-  author={Ahmed, Kishwar and Islam, Mohammad A and Ren, Shaolei and Quan, Gang},
-  booktitle={6th Workshop on Power-Aware Computing and Systems (HotPower 14)},
-  year={2014},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{islam2016minimizing,
-  abbr={IGSC},
-  title={Minimizing electricity cost for geo-distributed interactive services with tail latency constraint},
-  author={Islam, Mohammad A and Gandhi, Anshul and Ren, Shaolei},
-  booktitle={2016 Seventh International Green and Sustainable Computing Conference (IGSC)},
-  pages={1--8},
-  year={2016},
-  organization={IEEE},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@article{shao2020your,
-  abbr={POMACS},
-  title={Your noise, my signal: Exploiting switching noise for stealthy data exfiltration from desktop computers},
-  author={Shao, Zhihui and Islam, Mohammad A and Ren, Shaolei},
-  journal={Proceedings of the ACM on Measurement and Analysis of Computing Systems},
-  volume={4},
-  number={1},
-  pages={1--39},
-  year={2020},
-  publisher={ACM New York, NY, USA},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-
-@inproceedings{yang2020powerkey,
-  abbr={NSS},
-  title={PowerKey: Generating secret keys from power line electromagnetic interferences},
-  author={Yang, Fangfang and Islam, Mohammad A and Ren, Shaolei},
-  booktitle={International Conference on Network and System Security},
-  pages={354--370},
-  year={2020},
-  organization={Springer International Publishing Cham},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{shao2020deeppm,
-  abbr={CLOUD},
-  title={DeepPM: Efficient power management in edge data centers using energy storage},
-  author={Shao, Zhihui and Islam, Mohammad A and Ren, Shaolei},
-  booktitle={2020 IEEE 13th International Conference on Cloud Computing (CLOUD)},
-  pages={370--379},
-  year={2020},
-  organization={IEEE},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@article{hossen2021mobile,
-  abbr={WAIN},
-  title={Mobile task offloading under unreliable edge performance},
-  author={Hossen, Md Rajib and Islam, Mohammad A},
-  journal={ACM SIGMETRICS Performance Evaluation Review},
-  volume={48},
-  number={4},
-  pages={29--32},
-  year={2021},
-  publisher={ACM New York, NY, USA},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{shao2021heat,
-  abbr={HPCA},
-  title={Heat behind the meter: A hidden threat of thermal attacks in edge colocation data centers},
-  author={Shao, Zhihui and Islam, Mohammad A and Ren, Shaolei},
-  booktitle={2021 IEEE International Symposium on High-Performance Computer Architecture (HPCA)},
-  pages={318--331},
-  year={2021},
-  organization={IEEE},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{yang2021compkey,
-  abbr={CNS},
-  title={CompKey: Exploiting Computer’s Electromagnetic Radiation for Secret Key Generation},
-  author={Yang, Fangfang and Islam, Mohammad A and Wu, Fan and Ren, Shaolei},
-  booktitle={2021 IEEE Conference on Communications and Network Security (CNS)},
-  pages={281--289},
-  year={2021},
-  organization={IEEE},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-
-@article{hossen2022towards,
-  abbr={CLOUD},
-  title={Towards Efficient Microservices Management Through Opportunistic Resource Reduction},
-  author={Hossen, Md Rajib and Islam, Mohammad A},
-  journal={CLOUD COMPUTING 2022},
-  pages={27},
-  year={2022},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{hossen2022practical,
-  abbr={HPDC},
-  title={Practical efficient microservice autoscaling with QoS assurance},
-  author={Hossen, Md Rajib and Islam, Mohammad A and Ahmed, Kishwar},
-  booktitle={Proceedings of the 31st International Symposium on High-Performance Parallel and Distributed Computing},
-  pages={240--252},
-  year={2022},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
-@inproceedings{talukder2022computationally,
-  abbr={EDGE},
-  title={Computationally efficient auto-weighted aggregation for heterogeneous federated learning},
-  author={Talukder, Zahidur and Islam, Mohammad A},
-  booktitle={2022 IEEE International Conference on Edge Computing and Communications (EDGE)},
-  pages={12--22},
-  year={2022},
-  organization={IEEE},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
+  dimensions={false},
   selected={false}
 }
 
 @article{talukder2023efficient,
   abbr={SIGMETRICS},
-  title={Efficient Federated Learning with Self-Regulating Clients},
+  title={Efficient Federated Learning With Self-regulating Clients},
   author={Talukder, Zahidur and Islam, Mohammad A},
   journal={ACM SIGMETRICS Performance Evaluation Review},
   volume={50},
@@ -564,7 +63,7 @@
   abbr={HPCA},
   title={Market Mechanism-Based User-in-the-Loop Scalable Power Oversubscription for HPC Systems},
   author={Hossen, Md Rajib and Ahmed, Kishwar and Islam, Mohammad A},
-  booktitle={2023 IEEE International Symposium on High-Performance Computer Architecture (HPCA)},
+  booktitle={2023 Ieee International Symposium On High-performance Computer Architecture (hpca)},
   pages={485--498},
   year={2023},
   organization={IEEE},
@@ -574,21 +73,8 @@
   selected={false}
 }
 
-@inproceedings{gupta2022towards,
-  abbr={SenSys},
-  title={Towards server-level power monitoring in data centers using single-point voltage measurement},
-  author={Gupta, Pranjol and Talukder, Zahidur and Islam, Mohammad A and Nguyen, Phuc},
-  booktitle={Proceedings of the 20th ACM Conference on Embedded Networked Sensor Systems},
-  pages={855--856},
-  year={2022},
-  html={https://ieeexplore.ieee.org/document/6604466},
-  pdf={2013_IGCC.pdf},
-  dimensions={true},
-  selected={false}
-}
-
 @article{li2023making,
-  title={Making ai less" thirsty": Uncovering and addressing the secret water footprint of ai models},
+  title={Making Ai Less" Thirsty": Uncovering And Addressing The Secret Water Footprint Of Ai Models},
   author={Li, Pengfei and Yang, Jianyi and Islam, Mohammad A and Ren, Shaolei},
   journal={arXiv preprint arXiv:2304.03271},
   year={2023}
@@ -598,7 +84,7 @@
   abbr={EDGE},
   title={FedCime: An Efficient Federated Learning Approach For Clients in Mobile Edge Computing},
   author={Agbaje, Paul and Anjum, Afia and Talukder, Zahidur and Islam, Mohammad and Nwafor, Ebelechukwu and Olufowobi, Habeeb},
-  booktitle={2023 IEEE International Conference on Edge Computing and Communications (EDGE)},
+  booktitle={2023 Ieee International Conference On Edge Computing And Communications (edge)},
   pages={215--220},
   year={2023},
   organization={IEEE},
@@ -612,7 +98,7 @@
   abbr={SenSys},
   title={Enabling Low-Cost Server-Level Power Monitoring in Data Centers Using Conducted EMI},
   author={Gupta, Pranjol Sen and Talukder, Zahidur and Abir, Tasnim Azad and Nguyen, Phuc and Islam, Mohammad A},
-  booktitle={Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems},
+  booktitle={Proceedings Of The 21st Acm Conference On Embedded Networked Sensor Systems},
   pages={237--250},
   year={2023},
   html={https://ieeexplore.ieee.org/document/6604466},
@@ -621,29 +107,536 @@
   selected={true}
 }
 
-
-@inproceedings{gupta2024dataset,
-  abbr={E-Energy},
-  title={A dataset for research on water sustainability},
-  author={Gupta, Pranjol Sen and Hossen, Md Rajib and Li, Pengfei and Ren, Shaolei and Islam, Mohammad A},
-  booktitle={Proceedings of the 15th ACM International Conference on Future and Sustainable Energy Systems},
-  pages={442--446},
-  year={2024},
+@article{hossen2022towards,
+  abbr={CLOUD},
+  title={Towards Efficient Microservices Management Through Opportunistic Resource Reduction},
+  author={Hossen, Md Rajib and Islam, Mohammad A},
+  journal={CLOUD COMPUTING 2022},
+  pages={27},
+  year={2022},
   html={https://ieeexplore.ieee.org/document/6604466},
   pdf={2013_IGCC.pdf},
-  dimensions={false},
+  dimensions={true},
   selected={false}
 }
 
-@inproceedings{gupta2024towards,
-  abbr={E-Energy},
-  title={Towards Non-Intrusive Real-Time Monitoring of Behind the Meter Residential Distributed Energy Resources},
-  author={Gupta, Pranjol Sen and Alam, SM Shafiul and Zhang, Yichen and Islam, Mohammad A},
-  booktitle={Proceedings of the 15th ACM International Conference on Future and Sustainable Energy Systems},
-  pages={428--433},
-  year={2024},
+@inproceedings{hossen2022practical,
+  abbr={HPDC},
+  title={Practical efficient microservice autoscaling with QoS assurance},
+  author={Hossen, Md Rajib and Islam, Mohammad A and Ahmed, Kishwar},
+  booktitle={Proceedings Of The 31st International Symposium On High-performance Parallel And Distributed Computing},
+  pages={240--252},
+  year={2022},
   html={https://ieeexplore.ieee.org/document/6604466},
   pdf={2013_IGCC.pdf},
-  dimensions={false},
+  dimensions={true},
   selected={false}
 }
+
+@inproceedings{talukder2022computationally,
+  abbr={EDGE},
+  title={Computationally efficient auto-weighted aggregation for heterogeneous federated learning},
+  author={Talukder, Zahidur and Islam, Mohammad A},
+  booktitle={2022 Ieee International Conference On Edge Computing And Communications (edge)},
+  pages={12--22},
+  year={2022},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{gupta2022towards,
+  abbr={SenSys},
+  title={Towards server-level power monitoring in data centers using single-point voltage measurement},
+  author={Gupta, Pranjol and Talukder, Zahidur and Islam, Mohammad A and Nguyen, Phuc},
+  booktitle={Proceedings Of The 20th Acm Conference On Embedded Networked Sensor Systems},
+  pages={855--856},
+  year={2022},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@article{hossen2021mobile,
+  abbr={WAIN},
+  title={Mobile Task Offloading Under Unreliable Edge Performance},
+  author={Hossen, Md Rajib and Islam, Mohammad A},
+  journal={ACM SIGMETRICS Performance Evaluation Review},
+  volume={48},
+  number={4},
+  pages={29--32},
+  year={2021},
+  publisher={ACM New York, NY, USA},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{shao2021heat,
+  abbr={HPCA},
+  title={Heat behind the meter: A hidden threat of thermal attacks in edge colocation data centers},
+  author={Shao, Zhihui and Islam, Mohammad A and Ren, Shaolei},
+  booktitle={2021 Ieee International Symposium On High-performance Computer Architecture (hpca)},
+  pages={318--331},
+  year={2021},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{yang2021compkey,
+  abbr={CNS},
+  title={CompKey: Exploiting Computer’s Electromagnetic Radiation for Secret Key Generation},
+  author={Yang, Fangfang and Islam, Mohammad A and Wu, Fan and Ren, Shaolei},
+  booktitle={2021 Ieee Conference On Communications And Network Security (cns)},
+  pages={281--289},
+  year={2021},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@article{shao2020your,
+  abbr={POMACS},
+  title={Your Noise, My Signal: Exploiting Switching Noise For Stealthy Data Exfiltration From Desktop Computers},
+  author={Shao, Zhihui and Islam, Mohammad A and Ren, Shaolei},
+  journal={Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  volume={4},
+  number={1},
+  pages={1--39},
+  year={2020},
+  publisher={ACM New York, NY, USA},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{yang2020powerkey,
+  abbr={NSS},
+  title={PowerKey: Generating secret keys from power line electromagnetic interferences},
+  author={Yang, Fangfang and Islam, Mohammad A and Ren, Shaolei},
+  booktitle={International Conference On Network And System Security},
+  pages={354--370},
+  year={2020},
+  organization={Springer International Publishing Cham},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{shao2020deeppm,
+  abbr={CLOUD},
+  title={DeepPM: Efficient power management in edge data centers using energy storage},
+  author={Shao, Zhihui and Islam, Mohammad A and Ren, Shaolei},
+  booktitle={2020 Ieee 13th International Conference On Cloud Computing (cloud)},
+  pages={370--379},
+  year={2020},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@article{shao2019first,
+  abbr={SIGMETRICS},
+  title={A First Look At Thermal Attacks In Multi-tenant Data Centers},
+  author={Shao, Zhihui and Islam, Mohammad A and Ren, Shaolei},
+  journal={ACM SIGMETRICS Performance Evaluation Review},
+  volume={46},
+  number={2},
+  pages={93--94},
+  year={2019},
+  publisher={ACM New York, NY, USA},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@article{nguyen2018fair,
+  abbr={TWC},
+  title={Fair Sharing Of Backup Power Supply In Multi-operator Wireless Cellular Towers},
+  author={Nguyen, Minh NH and Tran, Nguyen H and Islam, Mohammad A and Pham, Chuan and Ren, Shaolei and Hong, Choong Seon},
+  journal={IEEE Transactions on Wireless Communications},
+  volume={17},
+  number={3},
+  pages={2080--2093},
+  year={2018},
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@article{islam2018some,
+  abbr={POMACS},
+  title={Why Some Like It Loud: Timing Power Attacks In Multi-tenant Data Centers Using An Acoustic Side Channel},
+  author={Islam, Mohammad A and Yang, Luting and Ranganath, Kiran and Ren, Shaolei},
+  journal={Proceedings of the ACM on Measurement and Analysis of Computing Systems},
+  volume={2},
+  number={1},
+  pages={1--33},
+  year={2018},
+  publisher={ACM New York, NY, USA},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{nguyen2018multi,
+  abbr={NOMS},
+  title={Multi-operator backup power sharing in wireless base stations},
+  author={Nguyen, Minh NH and Tran, Nguyen H and Islam, Mohammad A and Pham, Chuan and Ren, Shaolei and Hong, Choong Seon},
+  booktitle={Noms 2018-2018 Ieee/ifip Network Operations And Management Symposium},
+  pages={1--9},
+  year={2018},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{islam2018ohm,
+  abbr={CCS},
+  title={Ohm's law in data centers: A voltage side channel for timing power attacks},
+  author={Islam, Mohammad A and Ren, Shaolei},
+  booktitle={Proceedings Of The 2018 Acm Sigsac Conference On Computer And Communications Security},
+  pages={146--162},
+  year={2018},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{islam2017spot,
+  abbr={SIGMETRICS},
+  title={A spot capacity market to increase power infrastructure utilization in multi-tenant data centers},
+  author={Islam, Mohammad A and Ren, Xiaoqi and Ren, Shaolei and Wierman, Adam},
+  booktitle={Proceedings Of The 2017 Acm Sigmetrics/international Conference On Measurement And Modeling Of Computer Systems},
+  pages={19--20},
+  year={2017},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@article{islam2017first,
+  abbr={SIGMETRICS},
+  title={A First Look At Power Attacks In Multi-tenant Data Centers},
+  author={Islam, Mohammad A and Ren, Shaolei and Wierman, Adam},
+  journal={ACM SIGMETRICS Performance Evaluation Review},
+  volume={45},
+  number={2},
+  pages={91--93},
+  year={2017},
+  publisher={ACM},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{islam2017exploiting,
+  abbr={CCS},
+  title={Exploiting a thermal side channel for power attacks in multi-tenant data centers},
+  author={Islam, Mohammad A and Ren, Shaolei and Wierman, Adam},
+  booktitle={Proceedings Of The 2017 Acm Sigsac Conference On Computer And Communications Security},
+  pages={1079--1094},
+  year={2017},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={true}
+}
+
+@article{islam2017carbon,
+  abbr={TCC},
+  title={A Carbon-aware Incentive Mechanism For Greening Colocation Data Centers},
+  author={Islam, Mohammad A and Mahmud, Hasan and Ren, Shaolei and Wang, Xiaorui},
+  journal={IEEE Transactions on Cloud Computing},
+  volume={8},
+  number={1},
+  pages={4--16},
+  year={2017},
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{islam2016new,
+  abbr={CoolDC},
+  title={A New Perspective on Energy Accounting in Multi-Tenant Data Centers},
+  author={Islam, Mohammad A and Ren, Shaolei},
+  booktitle={Usenix Workshop On Cool Topics On Sustainable Data Centers (cooldc 16)},
+  year={2016},
+  html={https://www.usenix.org/conference/cooldc16/workshop-program/presentation/islam},
+  pdf={2016_cooldc16-paper-islam.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{islam2016market,
+  abbr={HPCA},
+  title={A market approach for handling power emergencies in multi-tenant data center},
+  author={Islam, Mohammad A and Ren, Xiaoqi and Ren, Shaolei and Wierman, Adam and Wang, Xiaorui},
+  booktitle={2016 Ieee International Symposium On High Performance Computer Architecture (hpca)},
+  pages={432--443},
+  year={2016},
+  organization={IEEE},
+  html={http://ieeexplore.ieee.org/abstract/document/7446084},
+  pdf={2016_hpca_2016.pdf},
+  dimensions={true},
+  selected={teue}
+}
+
+@article{islam2016exploiting,
+  abbr={TCC},
+  title={Exploiting Spatio-temporal Diversity For Water Saving In Geo-distributed Data Centers},
+  author={Islam, Mohammad A and Ahmed, Kishwar and Xu, Hong and Tran, Nguyen H and Quan, Gang and Ren, Shaolei},
+  journal={IEEE Transactions on Cloud Computing},
+  volume={6},
+  number={3},
+  pages={734--746},
+  year={2016},
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/document/7420641},
+  pdf={2014_TCC_02.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{wei2016co,
+  abbr={IGSC},
+  title={Co-scheduling of datacenter and HVAC loads in mixed-use buildings},
+  author={Wei, Tianshu and Islam, Mohammad Atiqul and Ren, Shaolei and Zhu, Qi and others},
+  booktitle={2016 Seventh International Green And Sustainable Computing Conference (igsc)},
+  pages={1--8},
+  year={2016},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2015_ICCAD.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{islam2016minimizing,
+  abbr={IGSC},
+  title={Minimizing electricity cost for geo-distributed interactive services with tail latency constraint},
+  author={Islam, Mohammad A and Gandhi, Anshul and Ren, Shaolei},
+  booktitle={2016 Seventh International Green And Sustainable Computing Conference (igsc)},
+  pages={1--8},
+  year={2016},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{islam2015paying,
+  abbr={HPCA},
+  title={Paying to save: Reducing cost of colocation data center via rewards},
+  author={Islam, Mohammad A and Mahmud, Hasan and Ren, Shaolei and Wang, Xiaorui},
+  booktitle={2015 Ieee 21st International Symposium On High Performance Computer Architecture (hpca)},
+  pages={235--245},
+  year={2015},
+  organization={IEEE},
+  html={http://ieeexplore.ieee.org/document/7056036},
+  pdf={2015_hpca_2015.pdf},
+  dimensions={true},
+  selected={true}
+}
+
+@article{islam2015water,
+  abbr={TCC},
+  title={Water-constrained Geographic Load Balancing In Data Centers},
+  author={Islam, Mohammad A and Ren, Shaolei and Quan, Gang and Shakir, Muhammad Z and Vasilakos, Athanasios V},
+  journal={IEEE Transactions on Cloud Computing},
+  volume={5},
+  number={2},
+  pages={208--220},
+  year={2015},
+  publisher={IEEE},
+  html={http://ieeexplore.ieee.org/document/7152842},
+  pdf={2015_TCC_01.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@article{islam2015distributed,
+  abbr={SUSCOM},
+  title={Distributed Temperature-aware Resource Management In Virtualized Data Center},
+  author={Islam, Mohammad A and Ren, Shaolei and Pissinou, Niki and Mahmud, A Hasan and Vasilakos, Athanasios V},
+  journal={Sustainable Computing: Informatics and Systems},
+  volume={6},
+  pages={3--16},
+  year={2015},
+  publisher={Elsevier},
+  html={http://www.sciencedirect.com/science/article/pii/S2210537914000055},
+  pdf={2014_suscom.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@article{islam2015online,
+  abbr={TSC},
+  title={Online Energy Budgeting For Cost Minimization In Virtualized Data Center},
+  author={Islam, Mohammad A and Ren, Shaolei and Mahmud, A Hasan and Quan, Gang},
+  journal={IEEE Transactions on Services Computing},
+  volume={9},
+  number={3},
+  pages={421--432},
+  year={2015},
+  publisher={IEEE},
+  html={http://ieeexplore.ieee.org/document/6730799},
+  pdf={2016_TSC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{ahmed2015contract,
+  abbr={ICCAD},
+  title={A contract design approach for colocation data center demand response},
+  author={Ahmed, Kishwar and Islam, Mohammad A and Ren, Shaolei},
+  booktitle={2015 Ieee/acm International Conference On Computer-aided Design (iccad)},
+  pages={635--640},
+  year={2015},
+  organization={IEEE},
+  html={http://ieeexplore.ieee.org/document/7372629},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={true}
+}
+
+@article{ren2014colocation,
+  abbr={ICAC},
+  title={Colocation Demand Response: Why Do I Turn Off My Servers?},
+  author={Ren, Shaolei and Islam, Mohammad A},
+  abstract={Data centers are promising participants in demand response programs (i.e., reducing a large electricity demand upon utility’s request), making power grid more stable and sustainable. In this paper, we focus on enabling colocation data center demand response. Colocation is an integral yet unique segment of data center industry, where multiple tenants house their servers in one shared facility. Nonetheless, differing from owner-operated data centers (e.g., Google), colocation data center suffers from “split incentive”: colocation operator desires demand response for financial incentives but has no control over tenants’ servers, while tenants who own the servers may not desire demand response due to lack of incentives. To break “split incentive”, we propose a first-of-its-kind incentive mechanism, called iCODE (incentivizing COlocation tenants for DEmand response), based on reverse auction: tenants, who voluntarily submit energy reduction bids to colocation operator, will be financially rewarded if their bids are accepted. We formally model how each tenant decides its bids and how colocation operator decides winning bids. We perform a trace-based simulation to evaluate iCODE. We show that iCODE can reduce colocation energy consumption by over 50% during demand response periods, unleashing the potential of colocation demand response.},
+  journal={11th International Conference on Autonomic Computing (ICAC 14)},
+  year={2014},
+  month={June},
+  html={https://www.usenix.org/conference/icac14/technical-sessions/presentation/ren},
+  pdf={2014_icac14-paper-ren.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@article{6604466,
+  abbr={IGCC},
+  author={Islam, Mohammad A. and Ren, Shaolei and Pissinou, Niki and Mahmud, Hasan and Vasilakos, Athanasios V.},
+  journal={2013 International Green Computing Conference Proceedings}, 
+  title={Distributed resource management in data center with temperature constraint},
+  abstract= {With the ever-increasing power density generating an excessive amount of heat that potentially induces server damage and outages, data center operation must be judiciously optimized to prevent server overheating. Moreover, data center is subject to various peak power constraints (such as peak server power) that have to be satisfied at all times for reliability concerns. In this paper, we propose a novel resource management algorithm, called DREAM (Distributed REsource mAnagement with teMperature constraint), to optimally control the server capacity provisioning (via power adjustment) and load distribution for minimizing the data center operational cost while satisfying the IT peak power and maximum server inlet temperature constraints. By using DREAM, each server can autonomously adjust its discrete processing speed (and hence, power consumption, too) and optimally decide the amount of workloads to process, in order to minimize the total cost that incorporates both power consumption and service delay. We rigorously prove that DREAM can yield the minimum cost with an arbitrarily high probability while satisfying the peak power and inlet temperature constraints. To complement the analysis, we perform a simulation study and show that DREAM can significantly reduce the cost compared to the optimal temperature-unaware algorithm (by up to 23%) and equal load distribution (by up to 69%).},
+  year={2013},
+  month={June},
+  doi={10.1109/IGCC.2013.6604466},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+  }
+
+  @article{ren2014first,
+  abbr={GreenMetrics},
+  title={A First Look At Colocation Demand Response},
+  author={Ren, Shaolei and Islam, Mohammad A},
+  journal={ACM SIGMETRICS Performance Evaluation Review},
+  volume={42},
+  number={3},
+  pages={73--75},
+  year={2014},
+  publisher={ACM},
+  html={https://dl.acm.org/citation.cfm?id=2695559},
+  pdf={2014_greenmetrics_2014.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{islam2014greencolo,
+  abbr={IGCC},
+  title={GreenColo: A novel incentive mechanism for minimizing carbon footprint in colocation data center},
+  author={Islam, Mohammad A and Ren, Shaolei and Wang, Xiaorui},
+  booktitle={International Green Computing Conference},
+  pages={1--8},
+  year={2014},
+  organization={IEEE},
+  html={http://ieeexplore.ieee.org/document/7039140},
+  pdf={2014_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{islam2014exploiting,
+  abbr={ICAC},
+  title={Exploiting Temporal Diversity of Water Efficiency to Make Data Center Less" Thirsty"},
+  author={Islam, Mohammad A and Ahmed, Kishwar and Ren, Shaolei and Quan, Gang},
+  booktitle={11th International Conference On Autonomic Computing (icac 14)},
+  pages={145--152},
+  year={2014},
+  html={https://www.usenix.org/conference/icac14/technical-sessions/presentation/islam},
+  pdf={2014_icac14-paper-islam.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@article{ren2014dynamic,
+  abbr={TSP},
+  title={Dynamic Scheduling For Energy Minimization In Delay-sensitive Stream Mining},
+  author={Ren, Shaolei and Deligiannis, Nikos and Andreopoulos, Yiannis and Islam, Mohammad A and Van Der Schaar, Mihaela},
+  journal={IEEE Transactions on Signal Processing},
+  volume={62},
+  number={20},
+  pages={5439--5448},
+  year={2014},
+  publisher={IEEE},
+  html={http://ieeexplore.ieee.org/document/6877705},
+  pdf={2014_TSP_10.1.1.700.2258.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{ahmed2014can,
+  abbr={HotPower},
+  title={Can Data Center Become Water Self-Sufficient?},
+  author={Ahmed, Kishwar and Islam, Mohammad A and Ren, Shaolei and Quan, Gang},
+  booktitle={6th Workshop On Power-aware Computing And Systems (hotpower 14)},
+  year={2014},
+  html={https://ieeexplore.ieee.org/document/6604466},
+  pdf={2013_IGCC.pdf},
+  dimensions={true},
+  selected={false}
+}
+
+@inproceedings{islam2013online,
+  abbr={MASCOTS},
+  title={Online energy budgeting for virtualized data centers},
+  author={Islam, Mohammad A and Ren, Shaolei and Quan, Gang},
+  booktitle={2013 Ieee 21st International Symposium On Modelling, Analysis And Simulation Of Computer And Telecommunication Systems},
+  pages={424--433},
+  year={2013},
+  organization={IEEE},
+  html={http://ieeexplore.ieee.org/document/6730799/},
+  pdf={2013_islam2013moscots.pdf},
+  dimensions={true},
+  selected={false}
+}
+
